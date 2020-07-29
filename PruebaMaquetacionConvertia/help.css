@@ -1,0 +1,300 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* Global styles */
+/* Header */
+header {
+    margin: 40px;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 160px);
+}
+
+.icono {
+    margin: 10px;
+}
+
+.icono a i {
+    color: #0063BC;
+    transform: rotate(-50deg);
+}
+
+#rotacion {
+    transition: all 0.8s ease-out;
+
+}
+
+#telefono:hover #rotacion {
+    transform: rotate(360deg);
+
+}
+
+.location {
+    cursor: pointer;
+}
+
+/* Header */
+/* MainOne */
+.umbrella {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 676px;
+    background-image: url("img/componentF.png");
+}
+
+.wrapTitle {
+
+    padding: 50px;
+    align-items: center;
+}
+
+.butHelp {
+    margin-left: 190px;
+    margin-top: 90px;
+    width: 247px;
+    height: 58px;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.chin {
+
+    width: 100%;
+    height: 96px;
+    text-align: center;
+    font: Bold 80px/96px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.some {
+    width: 100%;
+    height: 96px;
+    text-align: center;
+    font: Italic 80px/96px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/* MainOne */
+/* MainTwo */
+.textDisposition {
+    margin-top: 43px;
+    margin-left: 229px;
+    width: 909px;
+    height: 95px;
+}
+
+.textDisposition p {
+    text-align: center;
+    font: 22px/27px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.textDisposition span {
+    text-align: center;
+    font: Bold 22px/27px Roboto;
+    letter-spacing: 0px;
+    color: #0063BC;
+}
+
+/* MainTwo */
+/* MainThree */
+.icons{
+padding: 40px;
+display: flex;
+justify-content: space-between;
+}
+.txtIcons{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+/* MainThree */
+/* MainFour */
+
+.blueSection{
+    margin-top: 48px;
+padding: 20px;
+width: 100%;
+height: 76px;
+background: #0063BC 0% 0% no-repeat padding-box;
+display: flex;
+justify-content: space-between;
+}
+.blueSection p{
+text-align: center;
+font:  18px/22px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.blueSection i{
+    color: #FFFFFF;
+    transform: rotate(-50deg);
+}
+.blueSection .numberT{
+    margin-left: -200px;
+    margin-right: 384px;
+}
+
+/* MainFour */
+/* MainFive */
+.fiveM{
+width: 100%;
+}
+.butCenter{
+margin-left: 562px;
+text-align: center;
+font: Bold 17px/20px Roboto;
+letter-spacing: 0.42px;
+color: #FF6A00;
+background: #FFFFFF ;
+width: 243px;
+height: 58px;
+border: 3px solid #FF6A00;
+border-radius: 4px;
+cursor: pointer;
+}
+/* MainFive */
+/* footer */
+
+.packThree {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    width: 100%;
+    height: 70px;
+    background-image: url("img/componentK.png");
+}
+
+.politica {
+    height: 70px;
+    padding: 25px;
+}
+
+.wrapFooter {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 81px;
+    padding: 30px;
+}
+
+.Dizq {
+    width: 404px;
+    height: 21px;
+    text-align: left;
+    font: 16px/25px Roboto;
+    letter-spacing: 0.4px;
+    color: #1A1A1A;
+    margin-left: 138px;
+}
+
+.Dizq p {
+    width: 239px;
+    height: 17px;
+    text-align: left;
+    font: Bold 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #0063BC;
+}
+
+.Dcenizq {
+    width: 198px;
+    height: 40px;
+}
+
+.wrapFooter p input {
+    border: solid sandybrown;
+    margin-left: 10px;
+}
+
+.wrapFooter a {
+    text-decoration: underline;
+}
+#callmeThree {
+    margin-top: 13px;
+    margin-left: 39px;
+    width: 241px;
+    height: 46px;
+    background: #FF6A00 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    font: Bold 17px/20px Roboto;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+/* footer */
+@media screen and (max-width: 600px) {
+    .textDisposition {
+        margin-top: 43px;
+        margin-bottom: 43px;
+        margin-left: 10px;
+        width: 409px;
+        height: 95px;
+    }
+    .fiveM{
+        width: 409px;
+        margin-left: -50px;
+    }
+    .blueSection{
+    margin-top: 48px;
+    padding: 20px;
+    width: 509px;
+    height: 126px;
+    background: #0063BC 0% 0% no-repeat padding-box;
+    display: block;
+    }
+    .butHelp {
+        width: 409px;
+        margin-left: -50px;
+        cursor: pointer;
+        
+    }
+    .chin {
+    
+        width: 409px;
+        margin-left: -50px;
+    }
+    .some {
+        width: 409px;
+        margin-left: -50px;
+    
+    }
+}
